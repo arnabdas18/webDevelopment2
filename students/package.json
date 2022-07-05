@@ -1,0 +1,19 @@
+{
+  "name": "students",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec mocha -R min"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
